@@ -5,5 +5,5 @@ A port of the linux command cowsay $(fortune) using an embeded port of Piuccio's
 Inlude the following code in the body of your html page.
 ```
 <pre id="cowsay-target"></pre>
-<script src="https://raw.githubusercontent.com/Michael-Tennant/cowsays-fortune/main/script.jsscript.js"></script>
+<script src="https://cdn.rawgit.com/Michael-Tennant/cowsays-fortune/main/script.js"></script>
 ```
