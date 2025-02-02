@@ -56324,5 +56324,6 @@ var randomNumber = Math.floor(Math.random()*FORTUNES.length);
 const output = document.getElementById('cowsay-target');
 output.textContent = cowsay.say({
 text: FORTUNES[randomNumber],
+wrapLength: 80,
 cow: cowsay.COW,
 });
